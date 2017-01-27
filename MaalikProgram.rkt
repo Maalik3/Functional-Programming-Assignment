@@ -1,4 +1,4 @@
-(define test-list (list 1 2 3 4 5))
+(define test-list1 (list a b c))
 
 (CAR '(A B C))
 
