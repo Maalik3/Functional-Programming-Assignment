@@ -13,7 +13,7 @@
   (if
     (null? l)
     0
-    (+ (cdr l) (sum-up-numbers-simple (car l)))
+   (car l)
   )
 )
 
