@@ -5,16 +5,12 @@
       ) ;the use of reverse-general w/in itself makes it a recursive function
   )
 
-(define test-list0 (list 1 2 3))
-(cdr test-list1)
-(car test-list1)
-
-(define (sum-up-numbers-simple l)
+(define (sum-up-numbers-simple l) ;defining function wit hone parameter l
   (if
-    (null? l)
-    0
-     (+ (car l) (sum-up-numbers-simple (cdr l)))
+    (null? l) ;if the list is null
+    0 ;will return 0 
+     (+ (car l) (sum-up-numbers-simple (cdr l))) ;removed first item of the list and added to second item by using CDR to retrieve list without first item, and recursively calling sum function to retrieve the first item 
   )
 )
 
-(sum-up-numbers-simple test-list0)
+
