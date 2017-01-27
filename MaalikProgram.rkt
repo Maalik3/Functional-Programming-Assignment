@@ -5,7 +5,7 @@
       ) ;the use of reverse-general w/in itself makes it a recursive function
   )
 
-(define test-list1 (list 1 2 3))
+(define test-list0 (list 1 2 3))
 (cdr test-list1)
 (car test-list1)
 
@@ -17,4 +17,4 @@
   )
 )
 
-(sum-up-numbers-simple test-list1)
+(sum-up-numbers-simple test-list0)
