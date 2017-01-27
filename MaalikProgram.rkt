@@ -14,8 +14,6 @@
 
 (CDR test-list)
 
-(define (reverse-general l) ) (reverse-general (cdr l)) (list (car l))))
 
-(reverse-general test-list)
 
 
