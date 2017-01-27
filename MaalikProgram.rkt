@@ -14,6 +14,8 @@
 
 (CDR test-list)
 
+(define (reverse-general l) (if (null? l) '() (append (reverse-general (cdr l)) (list (car l)))))
 
+(reverse-general test-list)
 
 
