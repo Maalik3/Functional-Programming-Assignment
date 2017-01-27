@@ -13,7 +13,7 @@
   (if
     (null? l)
     0
-   (car l)
+    (+ (car l) (cdr l))
   )
 )
 
